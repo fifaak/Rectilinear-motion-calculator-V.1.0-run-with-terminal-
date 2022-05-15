@@ -1,3 +1,6 @@
+#รองรับ 5 สูตรหลัก
+#module
+
 from sympy import symbols, Eq, solve
 from math import *
 from datetime import datetime
@@ -240,6 +243,6 @@ def check ():
         if passwordd == encrypt:
             print("----------Pass----------")
             print("-----Rectilinear motion V.1.2-----")
-            print("License & Coding by fifa , bug-tester: tord")
+            print("License & Coding by fifaak , bug-tester: tord")
             Main()
 check()
